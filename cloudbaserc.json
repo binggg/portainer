@@ -14,7 +14,7 @@
               "envVariables": {},
               "volumeMounts": {
                 "/data": "cfs-cz1q2249",
-                "/var/run/docker.sock": "cfs-cz1q2249"
+                "/var/run/docker.sock": "cfs-cz1q2248"
                 },
               "uploadType": "image",
               "imageInfo": {
@@ -28,6 +28,10 @@
               {
                 "type": "CFS",
                 "name": "cfs-cz1q2249"
+              },
+              {
+                "type": "CFS",
+                "name": "cfs-cz1q2248"
               }
             ]
           }
